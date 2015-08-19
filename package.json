@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leecrossley/cordova-plugin-background-task.git"
+    "url": "git+https://github.com/filionf/cordova-plugin-background-task.git"
   },
   "keywords": [
     "cordova",
@@ -29,7 +29,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leecrossley/cordova-plugin-background-task/issues"
+    "url": "https://github.com/filionf/cordova-plugin-background-task/issues"
   },
-  "homepage": "https://github.com/leecrossley/cordova-plugin-background-task#readme"
+  "homepage": "https://github.com/filionf/cordova-plugin-background-task#readme"
 }
