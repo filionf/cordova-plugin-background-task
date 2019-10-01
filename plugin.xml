@@ -6,12 +6,12 @@
     <keywords>cordova, background, task, suspend</keywords>
     <license>MIT</license>
     <engines>
-        <engine name="cordova" version=">=3.0.0" />
+        <engine name="cordova" version=">=8.0.0" />
     </engines>
-    <js-module src="www/backgroundtask.js" name="BackgroundTask">
-        <clobbers target="backgroundtask" />
-    </js-module>
     <platform name="ios">
+        <js-module src="www/backgroundtask.js" name="BackgroundTask">
+            <clobbers target="backgroundtask" />
+        </js-module>
         <config-file target="config.xml" parent="/*">
             <feature name="BackgroundTask">
                 <param name="ios-package" value="BackgroundTask" />
